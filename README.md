@@ -18,7 +18,7 @@
 
 ---
 
-# 📖 About
+# About
 
 This repository is my **daily Python coding journal** focused on preparing for **Business Analytics**, **Data Analyst**, and **Business Intelligence** interviews.
 
