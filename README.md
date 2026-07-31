@@ -1,5 +1,4 @@
 # Business Analytics Playbook ft. Python
-# Python Interview Log
 
 <div align="center">
 
