@@ -1,0 +1,288 @@
+# Day 01: Variables, Data Types & User Input
+
+---
+
+## Module
+
+Python Basics
+
+## Difficulty
+
+Beginner
+
+## Interview Importance
+
+★★★★★
+
+---
+
+## Objective
+
+In this notebook, you will learn:
+
+- Variables
+- Data Types
+- User Input
+- Type Casting
+- Variable Naming Conventions
+- Multiple Assignment
+- Variable Swapping
+
+These concepts form the foundation of every Python program and are essential before learning libraries such as Pandas, NumPy, and Scikit-learn.
+
+---
+
+# 1. Variables
+
+A variable is a named location used to store data.
+
+### Syntax
+
+```python
+variable_name = value
+```
+
+### Example
+
+```python
+name = "Diksha"
+age = 22
+cgpa = 8.75
+is_student = True
+
+print(name)
+print(age)
+print(cgpa)
+print(is_student)
+```
+
+### Output
+
+```
+Diksha
+22
+8.75
+True
+```
+
+---
+
+# 2. Variable Naming Rules
+
+### Valid
+
+```python
+student_name = "Rahul"
+total_sales = 50000
+city = "Pune"
+```
+
+### Invalid
+
+```python
+2name = "Rahul"
+
+student name = "Rahul"
+
+class = "MBA"
+```
+
+---
+
+# 3. Data Types
+
+Python automatically detects the data type of a variable.
+
+```python
+name = "Python"
+age = 22
+salary = 45000.50
+is_employee = True
+
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(is_employee))
+```
+
+### Output
+
+```
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+```
+
+---
+
+# Common Data Types
+
+| Data Type | Example | Business Analytics Example |
+|-----------|---------|----------------------------|
+| int | 120 | Number of Orders |
+| float | 98.75 | Revenue |
+| str | "Mumbai" | Customer Name |
+| bool | True | Payment Completed |
+
+---
+
+# 4. User Input
+
+```python
+name = input("Enter your name: ")
+
+print("Welcome", name)
+```
+
+---
+
+# 5. Type Casting
+
+```python
+age = int(input("Enter your age: "))
+
+print(age + 5)
+```
+
+```python
+salary = float(input("Enter your salary: "))
+
+print(salary * 12)
+```
+
+---
+
+# 6. Multiple Assignment
+
+```python
+x, y, z = 10, 20, 30
+
+print(x)
+print(y)
+print(z)
+```
+
+---
+
+# 7. Swapping Variables
+
+```python
+a = 10
+b = 20
+
+a, b = b, a
+
+print(a)
+print(b)
+```
+
+---
+
+# Business Analytics Example
+
+A business analyst needs to calculate an employee's annual salary.
+
+```python
+employee = input("Employee Name: ")
+department = input("Department: ")
+monthly_salary = float(input("Monthly Salary: "))
+
+annual_salary = monthly_salary * 12
+
+print("Employee :", employee)
+print("Department :", department)
+print("Annual Salary :", annual_salary)
+```
+
+---
+
+# Interview Questions
+
+1. What is a variable?
+
+2. Explain dynamic typing in Python.
+
+3. What is the difference between int and float?
+
+4. Why is type casting required while taking user input?
+
+5. What is the difference between = and == ?
+
+6. What is the output?
+
+```python
+a = "5"
+b = 5
+
+print(a == b)
+```
+
+---
+
+# Practice Questions
+
+### Basic
+
+1. Store your name, age and city in variables.
+
+2. Print the data type of five variables.
+
+3. Swap two variables.
+
+4. Accept two numbers from the user and print their sum.
+
+### Intermediate
+
+Create a Student Information Program that accepts:
+
+- Name
+- Roll Number
+- Department
+- CGPA
+
+Display the information in a formatted manner.
+
+### Challenge
+
+Create a Shopping Bill Generator.
+
+Input:
+
+- Product Name
+- Quantity
+- Price
+
+Output:
+
+- Product Name
+- Quantity
+- Price
+- Total Bill
+
+---
+
+# Key Takeaways
+
+- Variables store information.
+- Python is dynamically typed.
+- Use meaningful variable names.
+- Type casting converts one data type into another.
+- These concepts are fundamental for data analysis using Python.
+
+---
+
+# Quick Revision
+
+| Concept | Syntax |
+|----------|--------|
+| Variable | `x = 10` |
+| String | `"Python"` |
+| Integer | `10` |
+| Float | `4.5` |
+| Boolean | `True` |
+| User Input | `input()` |
+| Integer Input | `int(input())` |
+| Float Input | `float(input())` |
+| Data Type | `type()` |
+
