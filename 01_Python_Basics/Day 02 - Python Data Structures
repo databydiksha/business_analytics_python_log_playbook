@@ -1,0 +1,124 @@
+# Day 02 - Python Data Structures
+
+## Overview
+
+Python provides several built-in data structures that help organize, store, and manipulate data efficiently. Choosing the appropriate data structure makes programs simpler, faster, and easier to maintain.
+
+In this notebook, we explore the four fundamental Python data structures: Lists, Tuples, Dictionaries, and Sets, along with their commonly used operations and practical examples.
+
+---
+
+## Learning Objectives
+
+By the end of this notebook, I will be able to:
+
+- Understand Python data structures
+- Create and manipulate Lists
+- Work with Tuples
+- Store and retrieve data using Dictionaries
+- Perform operations using Sets
+- Identify the appropriate data structure for different scenarios
+
+---
+
+# Topics Covered
+
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- Built-in Methods
+- Practical Examples
+- Mini Challenge
+
+---
+
+## 1. Lists
+
+Lists are ordered, mutable collections that allow duplicate values.
+
+### Common Operations
+
+- Creating Lists
+- Indexing
+- Slicing
+- append()
+- insert()
+- remove()
+- pop()
+- sort()
+- reverse()
+- len()
+
+---
+
+## 2. Tuples
+
+Tuples are ordered and immutable collections.
+
+### Common Operations
+
+- Creating Tuples
+- Indexing
+- Tuple Unpacking
+- count()
+- index()
+
+---
+
+## 3. Dictionaries
+
+Dictionaries store data as key-value pairs.
+
+### Common Operations
+
+- Creating Dictionaries
+- Accessing Values
+- keys()
+- values()
+- items()
+- update()
+- pop()
+
+---
+
+## 4. Sets
+
+Sets are unordered collections that store only unique values.
+
+### Common Operations
+
+- add()
+- remove()
+- union()
+- intersection()
+- difference()
+
+---
+
+# Mini Challenge
+
+Create a student record using a dictionary and display the stored information.
+
+Example fields:
+
+- Name
+- Age
+- Course
+- CGPA
+
+---
+
+# Key Takeaways
+
+- Lists are mutable and ordered.
+- Tuples are immutable and ordered.
+- Dictionaries store information as key-value pairs.
+- Sets automatically remove duplicate values.
+- Choosing the correct data structure improves code readability and performance.
+
+---
+
+## Conclusion
+
+Understanding Python data structures is an essential step toward mastering Python programming. These concepts form the foundation for data analysis, machine learning, and software development, where efficient data storage and manipulation are critical.
