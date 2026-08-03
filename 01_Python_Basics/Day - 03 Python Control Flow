@@ -1,0 +1,138 @@
+# Day 03 - Python Control Flow
+
+## Overview
+
+Control flow is the foundation of programming logic. It enables a program to make decisions and execute different blocks of code based on specified conditions.
+
+In this notebook, we explore Python's conditional statements and logical operators to build programs that can respond dynamically to different inputs.
+
+---
+
+## Learning Objectives
+
+By the end of this notebook, I will be able to:
+
+- Understand conditional statements
+- Implement decision-making using `if`, `elif`, and `else`
+- Use comparison and logical operators
+- Write nested conditional statements
+- Solve real-world decision-based problems
+
+---
+
+# Topics Covered
+
+- if Statement
+- if-else Statement
+- if-elif-else Statement
+- Nested if Statements
+- Comparison Operators
+- Logical Operators
+- Practical Examples
+- Mini Challenge
+
+---
+
+## 1. if Statement
+
+The `if` statement executes a block of code only when a specified condition evaluates to True.
+
+Example concepts:
+
+- Checking eligibility
+- Comparing numbers
+- Validating input
+
+---
+
+## 2. if-else Statement
+
+The `if-else` statement allows a program to execute one block when a condition is True and another block when it is False.
+
+Common applications:
+
+- Pass or Fail
+- Even or Odd
+- Positive or Negative
+
+---
+
+## 3. if-elif-else Statement
+
+This structure is used when multiple conditions need to be evaluated.
+
+Examples include:
+
+- Grade Calculation
+- Income Tax Slabs
+- Discount Calculation
+- Age Categories
+
+---
+
+## 4. Nested if Statements
+
+Nested conditions are useful when one decision depends on another.
+
+Example scenarios:
+
+- User Authentication
+- Loan Approval
+- Scholarship Eligibility
+
+---
+
+## 5. Comparison Operators
+
+Python provides comparison operators for evaluating conditions.
+
+- ==
+- !=
+- >
+- <
+- >=
+- <=
+
+These operators always return either True or False.
+
+---
+
+## 6. Logical Operators
+
+Logical operators combine multiple conditions.
+
+- and
+- or
+- not
+
+These are widely used in real-world business logic and data validation.
+
+---
+
+# Mini Challenge
+
+Develop a simple student grading system.
+
+Requirements:
+
+- Accept student marks.
+- Display the corresponding grade.
+- Determine whether the student has passed or failed.
+
+---
+
+# Key Takeaways
+
+- Conditional statements control program execution.
+- `if`, `elif`, and `else` enable decision-making.
+- Comparison operators evaluate conditions.
+- Logical operators combine multiple conditions.
+- Nested conditions solve complex decision-making problems.
+
+---
+
+## Conclusion
+
+Control flow is one of the most fundamental concepts in Python programming. Mastering conditional statements enables developers to build intelligent applications, automate decision-making, and solve real-world business problems efficiently.
+
+The concepts covered in this notebook serve as the foundation for loops, functions, and advanced programming techniques used in data analytics and machine learning.
